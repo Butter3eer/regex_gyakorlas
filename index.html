@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+
+    <form id="fizetesForm">
+
+      <div>
+        <label for="teljesNev">Teljes név:
+          <input id="teljesNev" type="text">
+        </label>
+      </div>
+
+      <div>
+        <label for="orszag">Ország:
+          <input id="orszag" type="text">
+        </label>
+      </div>
+
+      <div>
+        <label for="varos">Város:
+          <input id="varos" type="text">
+        </label>
+      </div>
+
+      <div>
+        <label for="utcaHazSzam">Utca, házszám:
+          <input id="utcaHazSzam" type="text">
+        </label>
+      </div>
+
+      <div>
+        <label for="iranyitoSzam">Irányítószám:
+          <input id="iranyitoSzam" type="text">
+        </label>
+      </div>
+
+      <div>
+        <label for="bankkartyaSzam">Bankkártya szám:
+          <input id="bankkartyaSzam" type="text">
+        </label>
+      </div>
+
+      <div>
+        <label for="ellenKod">Ellenőrző kód:
+          <input id="ellenKod" type="text">
+        </label>
+      </div>
+
+      <div>
+        <label for="kartyaNev">Bankkártyára írt név:
+          <input id="kartyaNev" type="text">
+        </label>
+      </div>
+
+      <button id="fizetes">Fizetés</button>
+
+    </form>
+
+    <p id="hibaUzenet"></p>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
